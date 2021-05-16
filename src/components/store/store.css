@@ -1,0 +1,17 @@
+.store_container{
+    margin-left: 10%;
+    margin-top: 100px;
+    height: 51.5vh;
+}
+.store_img{
+    width: 500px;
+}
+.store_col{
+    margin-left: 100px;
+    width: 500px;
+    flex-direction: column;
+}
+.store_btn{
+    margin-top: 50px;
+    margin-left: 35%;
+}

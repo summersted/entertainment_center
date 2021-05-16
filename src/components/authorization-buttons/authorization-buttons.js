@@ -1,14 +1,15 @@
 import React from 'react';
 import { Button, ButtonGroup } from 'reactstrap';
 import './authorization-buttons.module.css';
+import {Link} from 'react-router-dom';
 
 const AuthButtons = (props) =>{
     const autorized = true,
-        username = 'Сидорчук Роман'
+        username = 'Сидорчук Роман '
     if (autorized){
         return(
             <>
-                <span><a href="/">{username}</a></span>
+                <span><Link to={{pathname: `/profile`}} >{username}</Link></span>
                 <Button color="primary">Вийти</Button>{' '}
             </>
             );
@@ -20,8 +21,6 @@ const AuthButtons = (props) =>{
             </ButtonGroup>
             );
     }
-
-    
 }
 
 export default AuthButtons;

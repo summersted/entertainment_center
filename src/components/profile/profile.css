@@ -1,0 +1,15 @@
+.profile_container{
+    width: 500px;
+    height: 51.5vh;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.profile_img{
+    width: 100px;
+    margin-right: 50px;
+}
+.storeprofile_col_col{
+    margin-left: 100px;
+    width: 500px;
+    flex-direction: column;
+}

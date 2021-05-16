@@ -24,6 +24,8 @@ import Contact from '../contacts';
 import CardList from '../card-list';
 import MainPage from '../main-page';
 import Store from '../store';
+import Order from '../order';
+import Profile from '../profile';
 
 
 const Header = ({posts}) => {
@@ -72,6 +74,8 @@ const Header = ({posts}) => {
                 </Collapse>
               </Navbar>
 
+              <Route path='/profile' component={Profile} />
+              <Route path='/order' component={Order} />
               <Route path='/store/:id' render={() => <Store data = {posts}/>} />
               <Route path='/contacts' component={Contact} />
               <Route path='/institutions' component={WrappedCardList} />
