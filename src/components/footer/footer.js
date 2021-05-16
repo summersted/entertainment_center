@@ -6,14 +6,16 @@ const Footer = () =>{
         <footer class="footer">
             <div class="footer-wrap">
                 <div class="footer_logo landing-logo">
-                    <p>PEAKS<span>hiking club</span></p>
+                    <p>ДонНУ<span>ім. Василя Стуса</span></p>
                 </div>
                 <p class="footer_text">
-                    We create content and curate adventures for people looking for a truly authentic encounter in the great
-                    outdoors.
+                    Виконав студент 2го курсу,
+                    групи Б19_Д/122Д
+                    Сидорчук Роман Володимирович
                 </p>
                 <span class="footer-cr">
-                &copy; 2019 by PEAKS hiking club
+                Факультет інформаційних та прикладних технологій
+                Кафедра комп’ютерних наук та інформаційних технологій
                 </span>
             </div>
         </footer>

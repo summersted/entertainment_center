@@ -3,8 +3,8 @@ import { Button, ButtonGroup } from 'reactstrap';
 import './authorization-buttons.module.css';
 
 const AuthButtons = (props) =>{
-    const autorized = false,
-        username = 'Петро Столеваров'
+    const autorized = true,
+        username = 'Сидорчук Роман'
     if (autorized){
         return(
             <>

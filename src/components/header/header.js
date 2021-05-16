@@ -23,6 +23,7 @@ import AuthButtons from '../authorization-buttons';
 import Contact from '../contacts';
 import CardList from '../card-list';
 import MainPage from '../main-page';
+import Store from '../store';
 
 
 const Header = ({posts}) => {
@@ -71,11 +72,12 @@ const Header = ({posts}) => {
                 </Collapse>
               </Navbar>
 
+              <Route path='/store/:id' render={() => <Store data = {posts}/>} />
               <Route path='/contacts' component={Contact} />
               <Route path='/institutions' component={WrappedCardList} />
               <Route path='/main' component={MainPage} />
               <Route path='/' exact component={MainPage} />
-
+              
             </Router>
 
             <div className='modal modalReg hide'>  

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './card-list-item.css';
+import {Link} from 'react-router-dom';
 
 
 export default class CardListItem extends Component{
@@ -15,7 +16,7 @@ export default class CardListItem extends Component{
                 <h5 class="card-header">{textHeader}</h5>
                 <div class="card-body">
                     <p class="card-text">{label}</p>
-                    <a href={id} class="btn btn-primary">Детальніше</a>
+                    <Link to={{pathname: `/store/${id}`}} class="btn btn-primary">Детальніше</Link>
                 </div>
             </div>
         );
