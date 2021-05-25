@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom';
 
 const AuthButtons = (props) =>{
     const autorized = true,
+    // const autorized = false,
         username = 'Сидорчук Роман '
     if (autorized){
         return(
